@@ -1,0 +1,11 @@
+Build-Tree(Attribute List)
+If Size<Z;
+Then Sub-Tree<----Z
+SubTree<-------Z1;
+Z<-----MakeBucket
+Return Z<--------(NIL,NIL,Subtree)
+Test Attributes
+Larger Than Z
+Z<----Empty Node
+Else Z<--------(TestAttr,Test Value,BuildTree,Larger Z)
+Z Node
